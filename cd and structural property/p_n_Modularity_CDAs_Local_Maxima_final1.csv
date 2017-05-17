@@ -1,0 +1,23 @@
+Edge Removed,EB,Next Edge To Be Removed,EB,Modularity,Community Size,Louvian,Label Propagation,Infomap,Walktrap,FastGreedy,Girvan-Newman
+"(0, 1)",0.4395604395604396,"(0, 3)",0.1684981684981685,0.555765595463138,2,"Clustering with 14 elements and 3 clusters
+[0] 2, 3, 4, 5, 6
+[1] 1, 7, 8, 9
+[2] 0, 10, 11, 12, 13","Clustering with 14 elements and 3 clusters
+[0] 0, 10, 11, 12, 13
+[1] 1, 7, 8, 9
+[2] 2, 3, 4, 5, 6","Clustering with 14 elements and 3 clusters
+[0] 0, 10, 11, 12, 13
+[1] 2, 3, 4, 5, 6
+[2] 1, 7, 8, 9","Clustering with 14 elements and 3 clusters
+[0] 0, 10, 11, 12, 13
+[1] 1, 7, 8, 9
+[2] 2, 3, 4, 5, 6","Clustering with 14 elements and 3 clusters
+[0] 0, 10, 11, 12, 13
+[1] 1, 7, 8, 9
+[2] 2, 3, 4, 5, 6","Clustering with 14 elements and 3 clusters
+[0] 0, 10, 11, 12, 13
+[1] 1, 7, 8, 9
+[2] 2, 3, 4, 5, 6"
+"(0, 3)",0.1684981684981685,"(0, 2)",0.27472527472527475,0.600206611570248,2,"[[0, 2, 3, 4, 5, 6, 10, 11, 12, 13], [8, 1, 7, 9]]"
+"(0, 2)",0.27472527472527475,"(2, 5)",0.027472527472527476,0.6485260770975056,3,"[[0, 10, 11, 12, 13], [8, 1, 7, 9], [2, 3, 4, 5, 6]]"
+"(2, 5)",0.027472527472527476,"(2, 6)",0.04395604395604396,0.645,3,"[[0, 10, 11, 12, 13], [8, 1, 7, 9], [2, 3, 4, 5, 6]]"

@@ -1,7 +1,7 @@
 from igraph import *
 import csv
-filename = 'poblogs_cleaned'#raw_input('Input edgelist file...    ')
-#g = Read_GML(filename+'.gml')
+filename = 'simple_network from ppt'
+#g = Graph().Read_GML(filename+'.gml')
 g = Graph().Read_Edgelist(filename+'.txt', directed=False)
 g.simplify()
 
@@ -17,7 +17,7 @@ cda = {
 
 for i in cda:
     print i
-    fname = filename+'cda[i]+'.csv'
+    fname = filename+cda[i]+'.csv'
     with open(fname,'wb') as file:
         csvWriter = csv.writer(file)
         for index in range(len(i)):

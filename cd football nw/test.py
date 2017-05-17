@@ -5,10 +5,18 @@ g.simplify()
 f = g.community_multilevel()
 print(dir(f))
 print(len(f))
-print(f)
-
+print((f[]))
+'''
 with open('fname.csv','wb') as file:
     csvWriter = csv.writer(file)
     for index in range(len(f)):
         for j in f[index]:
             csvWriter.writerow((index,j))
+
+with open('fname.csv','rb') as file:
+    csvReader = csv.reader(file)
+    for line in csvReader:
+        print(type(line))
+        print(line)
+'''
+
